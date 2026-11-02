@@ -9,4 +9,4 @@ jobs:
       - env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
-        run: gh release create v0.0.2 --generate-notes --title v0.0.2
+        run: gh release create v0.0.2 --generate-notes --title v0.0.3
