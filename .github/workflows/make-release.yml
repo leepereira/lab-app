@@ -1,7 +1,7 @@
 name: Make release
 on: workflow_dispatch
-permissions:
-  contents: write
+permissions: {}
+#   contents: write
 jobs:
   r:
     runs-on: ubuntu-latest
